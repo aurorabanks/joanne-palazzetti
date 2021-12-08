@@ -1,0 +1,170 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+    color: 000;
+    font-family: 'Roboto', sans-serif;
+}
+
+/***** HEADER AND NAVIGATION *****/
+
+.top-header {
+    margin-top: 15px;
+    padding-right: 15px;
+    text-align: right;
+    height: 50px;
+    background-color: #fff;
+}
+
+.social {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+header {
+    background-color: #F1E2DD;
+    height: 350px;
+    width: 100%;
+}
+
+
+.style-two {
+    border: 0 0 2 0;
+    background-color: grey;
+    opacity: .2;
+    width: 35%;
+}
+
+nav {
+    text-align: center;
+    vertical-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.logo { 
+    background-color: #F1E2DD;
+    cursor: pointer;
+    border-radius: 50%;  /* not working */
+    border-color: #F1E2DD;
+}
+ 
+.menu {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #B3B5BE;
+}
+
+a {
+    text-decoration: none;
+    color: #393838;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: #B3B5BE;
+    letter-spacing: 2px;
+}
+
+.menu li a:hover {
+    color: #B3B5BE;
+}
+
+.contact {
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+/***** HEADINGS *****/
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+
+}
+
+/***** ABOUT *****/
+
+.about {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .about-me {     
+      padding: none 15vw;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:center;
+      text-align: justify;
+      align-items: stretch;
+      font-size: 14px;
+      letter-spacing: 2px;
+      line-height: 2;
+      gap: 50px;
+  }
+  
+  .about-me p {
+    max-width: 40%;
+    margin-bottom: 70px;
+  }
+
+  /***** GALLERY *****/
+
+  .portfolio {
+      margin: 30px 100px 60px 100px;    
+      padding: none 15vw;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .carousel {
+      border-style: solid;
+      border-width: 1px;
+      border-color: #c1bcbc;
+      margin: 40px;
+  }
+
+  .carousel img {
+      cursor: pointer;
+      width: 300px;
+  }
+
+  .carousel p {
+      width: 300px;
+      text-align: center;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 900;
+      letter-spacing: 6px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: #fdeee9;
+      color: #404040;
+      margin: 0px;
+  }
+
+  .say-hello {
+      background-color: #fdeee9;
+      height: 700px;
+      padding-top: 30px;
+
+  }
+
+ 
+
+
+
+
+
