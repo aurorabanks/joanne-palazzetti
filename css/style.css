@@ -1,170 +1,163 @@
 body {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    background-color: #fff;
-    color: 000;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    margin: 0px;
 }
 
-/***** HEADER AND NAVIGATION *****/
-
 .top-header {
-    margin-top: 15px;
-    padding-right: 15px;
-    text-align: right;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     height: 50px;
     background-color: #fff;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.top-header p {
+    color: #404040;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+.logo {
+    width: 250px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.header-contact p{
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color:#404040;
+    padding-left: 25px;
+
 }
 
 .social {
-    margin: 5px;
-    width: 30px;
-    height: 30px;
-    background-color: #fff;
+    width: 250px;
+    height: 50px;
+    margin-top: 5px 5px 0px auto;
+    padding: 0px 20px 0px 0px;
     cursor: pointer;
 }
 
-header {
-    background-color: #F1E2DD;
-    height: 350px;
-    width: 100%;
+.icons {
+    width: 25px;
+    height: 25px;
+    margin: 8px;
+    float: right;
 }
 
-
-.style-two {
-    border: 0 0 2 0;
-    background-color: grey;
-    opacity: .2;
-    width: 35%;
+.main-header {
+    height: 450px;
+    margin: 20px 0px 10px 0px;
+    background-color: #fdede8;
 }
 
-nav {
+.nav {
     text-align: center;
-    vertical-align: center;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    height: 100px;
+    margin-top: 50px;
 }
 
-.logo { 
-    background-color: #F1E2DD;
-    cursor: pointer;
-    border-radius: 50%;  /* not working */
-    border-color: #F1E2DD;
-}
- 
-.menu {
-    list-style: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: #B3B5BE;
-}
-
-a {
+.nav ul a {
     text-decoration: none;
-    color: #393838;
+    color: #000;
 }
 
-.menu li {
+.nav li {
     display: inline-block;
-    margin: 0px 50px;
-    text-decoration: none;
-    color: #B3B5BE;
+    font-size: 18px;
+    list-style: none;
+    margin: 20px;
     letter-spacing: 2px;
-}
-
-.menu li a:hover {
-    color: #B3B5BE;
-}
-
-.contact {
     cursor: pointer;
-    margin-right: 50px;
 }
 
-/***** HEADINGS *****/
+.avatar { 
+    cursor: pointer;
+    border-radius: 50%;
+    border-color: #fff;
+    text-align: center;
+}
 
 h1 {
     font-size: 30px;
     letter-spacing: 3px;
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 50px;
     font-weight: lighter;
+    color: grey;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+/* About */
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 50px;
 
 }
 
-/***** ABOUT *****/
+.about-me {
+    width: 450px;
+    margin-top: 30px;
+    line-height: 2;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-align: justify;
+}
 
-.about {
-    margin-top: 20px;
+/* Portfolio */
+
+.portfolio {
+    margin: 30px 100px 60px 100px;    
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: 0;
+}
+
+.carousel {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c1bcbc;
+    margin: 40px;
+}
+
+.carousel img {
+    cursor: pointer;
+    width: 300px;
+}
+
+.carousel p {
+    width: 300px;
     text-align: center;
-  }
-  
-  .about-me {     
-      padding: none 15vw;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content:center;
-      text-align: justify;
-      align-items: stretch;
-      font-size: 14px;
-      letter-spacing: 2px;
-      line-height: 2;
-      gap: 50px;
-  }
-  
-  .about-me p {
-    max-width: 40%;
-    margin-bottom: 70px;
-  }
+    align-items: center;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fdeee9;
+    color: #404040;
+    margin: 0px;
+}
 
-  /***** GALLERY *****/
+/***** Contact *****/
 
-  .portfolio {
-      margin: 30px 100px 60px 100px;    
-      padding: none 15vw;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-  }
-
-  .carousel {
-      border-style: solid;
-      border-width: 1px;
-      border-color: #c1bcbc;
-      margin: 40px;
-  }
-
-  .carousel img {
-      cursor: pointer;
-      width: 300px;
-  }
-
-  .carousel p {
-      width: 300px;
-      text-align: center;
-      align-items: center;
-      font-size: 14px;
-      font-weight: 900;
-      letter-spacing: 6px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      background-color: #fdeee9;
-      color: #404040;
-      margin: 0px;
-  }
-
-  .say-hello {
-      background-color: #fdeee9;
-      height: 700px;
-      padding-top: 30px;
-
-  }
-
- 
-
-
-
-
-
+.contact {
+    height: 500px;
+    background-color: #fdeee9;
+    margin-top: 50px;
+    padding-top: 50px;
+}
