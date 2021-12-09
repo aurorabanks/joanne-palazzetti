@@ -54,9 +54,11 @@ body {
 }
 
 .main-header {
-    height: 450px;
+    display: flex;
+    justify-content: left;
+    height: 500px;
     margin: 20px 0px 10px 0px;
-    background-color: #fdede8;
+    background-color: #f8ddd6;
 }
 
 .nav {
@@ -80,10 +82,10 @@ body {
 }
 
 .avatar { 
-    cursor: pointer;
+
     border-radius: 50%;
     border-color: #fff;
-    text-align: center;
+
 }
 
 h1 {
@@ -113,6 +115,7 @@ h1 {
     letter-spacing: 2px;
     font-size: 14px;
     text-align: justify;
+    padding: 15px;
 }
 
 /* Portfolio */
@@ -154,10 +157,67 @@ h1 {
 }
 
 /***** Contact *****/
-
 .contact {
-    height: 500px;
     background-color: #fdeee9;
-    margin-top: 50px;
+    height: 500px;
+    padding-bottom: 30px;
+}
+
+.contact-main {
+    height: 100px;
+    background-color: #fdeee9;
+    margin-top: 100px;
     padding-top: 50px;
 }
+
+.contact .contact-main p {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+.contact-us {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.contact-box {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #fdeee9;
+    margin: 20px;
+    border-style: solid;
+    border-color: #e6e6e6;
+    border-width: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming-soon {
+    padding-top: 200px;
+
+}
+
+.coming-soon p {
+    display: flex;
+    font-size: 12px;
+    letter-spacing: 2px;
+    justify-content: center;
+}
+
+.carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1440px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    border-color: #fff;
+}
+
+
