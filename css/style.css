@@ -55,10 +55,10 @@ body {
 
 .main-header {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     height: 500px;
     margin: 20px 0px 10px 0px;
-    background-color: #f8ddd6;
+    background-color: #f1e2dd;
 }
 
 .nav {
@@ -82,10 +82,9 @@ body {
 }
 
 .avatar { 
-
-    border-radius: 50%;
+    border-radius: 70%;
     border-color: #fff;
-
+    text-align: center;
 }
 
 h1 {
@@ -105,11 +104,10 @@ h1 {
     justify-content: center;
     gap: 40px;
     padding-bottom: 50px;
-
 }
 
 .about-me {
-    width: 450px;
+    width: 700px;
     margin-top: 30px;
     line-height: 2;
     letter-spacing: 2px;
@@ -118,45 +116,38 @@ h1 {
     padding: 15px;
 }
 
-/* Portfolio */
 
-.portfolio {
-    margin: 30px 100px 60px 100px;    
-    padding-top: 20px;
+/*****Portfolio*****/
+
+.gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 
-    margin: 0;
+    justify-content: center;
+    margin-bottom: 80px;
 }
 
-.carousel {
+.boxes {
+    width: 300px;
+    margin: 20px;
     border-style: solid;
     border-width: 1px;
-    border-color: #c1bcbc;
-    margin: 40px;
+    border-color: gainsboro;
 }
 
-.carousel img {
-    cursor: pointer;
+.boxes img {
     width: 300px;
 }
 
-.carousel p {
-    width: 300px;
+.figcaption {
     text-align: center;
-    align-items: center;
-    font-size: 14px;
-    font-weight: 900;
-    letter-spacing: 6px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #fdeee9;
-    color: #404040;
-    margin: 0px;
+    width: 300px;
 }
+
+
 
 /***** Contact *****/
+
 .contact {
     background-color: #fdeee9;
     height: 500px;
@@ -196,6 +187,14 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
+.contact-box a {
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color:#404040;
+}
+
 
 .coming-soon {
     padding-top: 200px;
