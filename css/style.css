@@ -82,7 +82,7 @@ body {
 }
 
 .avatar { 
-    border-radius: 70%;
+    border-radius: 50%;
     border-color: #fff;
     text-align: center;
 }
@@ -122,13 +122,13 @@ h1 {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-
     justify-content: center;
-    margin-bottom: 80px;
+    margin: 50px 0 100px 0;
 }
 
 .boxes {
     width: 300px;
+    height: 350px;
     margin: 20px;
     border-style: solid;
     border-width: 1px;
@@ -137,11 +137,19 @@ h1 {
 
 .boxes img {
     width: 300px;
+    height: 300px;
+    margin-bottom: 0;
+    padding: 0px;
 }
 
-.figcaption {
-    text-align: center;
+.gallery p {
     width: 300px;
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #f1e2dd;
 }
 
 
