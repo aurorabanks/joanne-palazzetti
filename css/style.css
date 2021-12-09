@@ -229,3 +229,37 @@ h1 {
 }
 
 
+
+/* Tablets - top header wraps */
+@media screen and (max-width: 992px) {
+
+    .top-header p {
+        padding: 5px;
+ 
+    }
+    .social {
+        width: 250px;
+        height: 30px;
+        margin: 0;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+    }
+
+    .icons {
+        float: left;
+ 
+    }
+
+
+  /* Small smartphones - top header wraps */
+@media screen and (max-width: 576px) {
+    .top-header p {
+        padding: 5px;
+    }
+    .icons {
+        float: left;
+        margin: 0;
+    }
+  }
+
