@@ -67,7 +67,7 @@ body {
     margin-top: 50px;
 }
 
-.nav ul a {
+ul a {
     text-decoration: none;
     color: #000;
 }
@@ -85,6 +85,7 @@ body {
     border-radius: 50%;
     border-color: #fff;
     text-align: center;
+
 }
 
 h1 {
@@ -107,7 +108,7 @@ h1 {
 }
 
 .about-me {
-    width: 700px;
+    width: 800px;
     margin-top: 30px;
     line-height: 2;
     letter-spacing: 2px;
@@ -138,8 +139,7 @@ h1 {
 .boxes img {
     width: 300px;
     height: 300px;
-    margin-bottom: 0;
-    padding: 0px;
+
 }
 
 .gallery p {
@@ -149,9 +149,9 @@ h1 {
     letter-spacing: 2px;
     text-align: center;
     padding-top: 15px;
+    margin: 0px auto 0px auto;
     background-color: #f1e2dd;
 }
-
 
 
 /***** Contact *****/
@@ -169,8 +169,8 @@ h1 {
     padding-top: 50px;
 }
 
-.contact .contact-main p {
-    font-size: 12px;
+.contact-main p {
+    font-size: 14px;
     letter-spacing: 2px;
     text-align: center;
 
@@ -178,6 +178,7 @@ h1 {
 .contact-us {
     display: flex;
     flex-wrap: wrap;
+    background-color: #fdeee9;
     height: 400px;
     justify-content: center;
     padding-top: 60px;
