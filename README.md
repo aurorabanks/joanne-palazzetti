@@ -4,6 +4,8 @@
 
 Website to show the following particulars:
 
+An edit
+
 . My professional name, a recent photo or avatar, and links to sections about my work
 . Contact details
 . UI scrolls to the corresponding section
